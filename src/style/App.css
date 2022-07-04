@@ -1,0 +1,286 @@
+@import url("http://fonts.cdnfonts.com/css/trajan-pro");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*********************/
+
+.mainText {
+  font-family: "Share Tech Mono", monospace;
+}
+
+.gb {
+  background-image: url("../../public/rsc/img/seiglieWB.jpeg");
+}
+
+.navigation_Wrapper {
+  background-color: #f7f7f7;
+  height: 100px;
+  justify-content: center;
+}
+
+.menu_Head {
+  background-image: url("../../public/rsc/img/seiglie_Banner1_399.png");
+  background-size: fill;
+  background-repeat: no-repeat;
+  height: 162px;
+  margin-bottom: 1.5rem;
+}
+
+.menu_Close {
+  display: flex;
+  align-self: flex-start;
+  background-color: black;
+  color: #720840;
+  border-radius: 0.8rem;
+}
+.menu_CloseIcon {
+  font-size: 1.5rem;
+}
+.menu_Close:hover {
+  box-shadow: 1px 1px 10px 0px #720840;
+}
+
+.nav_Wrapper {
+  display: inline-grid;
+  align-content: center;
+  padding: 0;
+}
+
+.navWrap {
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navItem {
+  padding: 1rem;
+  list-style-type: none;
+}
+
+.navLink {
+  text-decoration: none;
+}
+.navItem:hover {
+  color: #720840;
+}
+
+.RRSS_list {
+  list-style-type: none;
+}
+
+.RRSS_list:last-child {
+  margin-bottom: 0;
+}
+
+.RRSS_link {
+  margin-bottom: 0;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: left;
+  color: black;
+}
+
+.RRSS_link:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.RRSS_link:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.RRSS_link:hover {
+  color: #720840;
+}
+
+.accordion {
+  --bs-accordion-active-color: #720840;
+  --bs-accordion-active-bg: transparent;
+  --bs-accordion-border-color: #720840;
+  --bs-accordion-btn-focus-border-color: #720840 !important;
+}
+.accordion-button:focus {
+  border-color: #720840 !important;
+}
+.about_wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.about_Hola {
+  font-size: 5rem;
+}
+
+.text_Intro {
+  font-size: 2.5rem;
+}
+
+.text_normal {
+  font-size: 2rem;
+}
+
+.about_quote{
+  place-content: center;
+}
+
+q {
+  border: 2px solid #807676;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+q::before {
+  content: "« ";
+}
+q::after {
+  content: " »";
+}
+
+.text_Link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+
+.text_Link:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.text_hablamos{
+  margin-top: 3rem;
+}
+
+.tech_Title,
+.colab_Title {
+  font-family: "Share Tech Mono", monospace;
+  margin-top: 5rem;
+}
+
+.tech_wrapper {
+  margin-top: 5rem;
+}
+
+.tech_Holder {
+  justify-content: space-evenly;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.tech_img {
+  width: 8rem;
+  height: 7rem;
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.colab_Wrapper {
+  margin-top: 2rem;
+}
+
+.colab_img {
+  width: 12rem;
+  height: 11rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.colab_ImgLink:hover {
+  cursor: pointer;
+}
+
+.colab_Holder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.contact_Wrapper{
+  width: 70%;
+}
+
+.contact_accordion{
+  align-self: center;
+}
+
+.contact_Icon{
+  padding: 0.5rem;
+}
+
+.contacto_Img{
+  width: 20rem;
+  height: auto;
+}
+
+.Seiglie_Footer{
+  background-color: #f7f7f7;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 8pt;
+}
+
+.footer_Link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer_Link:hover {
+  cursor: pointer;
+  color: #720840;
+}
+
+.footer_Ul{
+  padding: 0;
+}
+
+.footer_List {
+  list-style-type: none;
+  
+}
+
+.footer_Logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
