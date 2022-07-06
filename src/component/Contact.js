@@ -1,8 +1,8 @@
 import React from "react";
 
-const Contacto = () => {
+const Contact = () => {
   return (
-    <section id="#contacto" className="container">
+    <section className="container" id="#contact">
       <h1 className="colab_Title">&lt;Hablamos?/&gt;</h1>
 
       <div className="container contact_Wrapper">
@@ -113,4 +113,4 @@ const Contacto = () => {
   );
 };
 
-export default Contacto;
+export default Contact;

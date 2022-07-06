@@ -2,10 +2,10 @@ import React from "react";
 import RRSS from "./RRSS";
 import { HashLink, NavHashLink } from "react-router-hash-link";
 
-
 const Navigation = () => {
   return (
     <>
+    
       <nav>
         <button
           className="navbar-toggler"
@@ -24,7 +24,6 @@ const Navigation = () => {
           </span>
         </button>
       </nav>
-
       <div
         className="offcanvas offcanvas-start"
         tabIndex="-1"
@@ -45,22 +44,19 @@ const Navigation = () => {
         <div className="offcanvas-body nav_Wrapper">
           <ul className="navWrap">
             <li className="nav-item navItem">
-            <HashLink to="#about">About</HashLink>
-              {/* <a className="nav-link navLink mainText" href="#about">
+              <HashLink to="#about">About</HashLink>
+              <a className="nav-link navLink mainText" href="#about">
                 About
-              </a> */}
+              </a>
             </li>
             <li className="nav-item navItem">
-
               <HashLink to="#tech">Tech</HashLink>
-
-              {/* <a className="nav-link navLink mainText" href="#tech">
+              <a className="nav-link navLink mainText" href="#tech">
                 Tech
-              </a> */}
+              </a>
             </li>
-           
             <li className="nav-item navItem">
-              <a className="nav-link navLink mainText" href="#contacto">
+              <a className="nav-link navLink mainText" href="#contact">
                 Hablamos?
               </a>
             </li>
@@ -69,7 +65,6 @@ const Navigation = () => {
                 Colab
               </a>
             </li>
-
             <li className="nav-item navItem">
               <a className="nav-link navLink mainText" href="#projects">
                 Projects
@@ -77,7 +72,6 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-
         <div className="accordion accordion-flush" id="accordionFlushExample">
           <div className="accordion-item">
             <h2 className="accordion-header" id="flush-headingOne">
@@ -108,5 +102,4 @@ const Navigation = () => {
     </>
   );
 };
-
 export default Navigation;

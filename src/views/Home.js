@@ -1,7 +1,7 @@
 import React from "react";
 import About from "../component/About";
 import Colab from "../component/Colab";
-import Contacto from "../component/Contacto";
+import Contact from "../component/Contact";
 import Footer from "../component/Footer";
 import Navigation from "../component/Navigation";
 import Tech from "../component/Tech";
@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         <About />
         <Tech />
-        <Contacto />
+        <Contact />
         <Colab />
         <Footer />
       </div>
