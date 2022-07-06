@@ -1,6 +1,6 @@
 import React from "react";
 import RRSS from "./RRSS";
-import { HashLink } from "react-router-hash-link";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 
 
 const Navigation = () => {
