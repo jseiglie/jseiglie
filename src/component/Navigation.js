@@ -1,11 +1,9 @@
 import React from "react";
 import RRSS from "./RRSS";
-import { HashLink, NavHashLink } from "react-router-hash-link";
 
 const Navigation = () => {
   return (
     <>
-    
       <nav>
         <button
           className="navbar-toggler"
@@ -31,32 +29,31 @@ const Navigation = () => {
         aria-labelledby="offcanvasRightLabel"
       >
         <div className="offcanvas-header menu_Head">
-          <span></span>
-          <button
-            type="button"
-            className=" menu_Close"
+          
+          <div
+            className="close-container menu_Close"
             data-bs-dismiss="offcanvas"
             aria-label="Close"
           >
-            <i className="fa-solid fa-xmark menu_CloseIcon"></i>
-          </button>
+            <div className="leftright"></div>
+            <div className="rightleft"></div>
+            <label className="close">close</label>
+          </div>
         </div>
         <div className="offcanvas-body nav_Wrapper">
           <ul className="navWrap">
             <li className="nav-item navItem">
-              <HashLink to="#about">About</HashLink>
               <a className="nav-link navLink mainText" href="#about">
                 About
               </a>
             </li>
             <li className="nav-item navItem">
-              <HashLink to="#tech">Tech</HashLink>
               <a className="nav-link navLink mainText" href="#tech">
                 Tech
               </a>
             </li>
             <li className="nav-item navItem">
-              <a className="nav-link navLink mainText" href="#contact">
+              <a className="nav-link navLink mainText" href="#hablamos">
                 Hablamos?
               </a>
             </li>
@@ -76,7 +73,7 @@ const Navigation = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="flush-headingOne">
               <button
-                className="accordion-button collapsed"
+                className="accordion-button collapsed RRSS_btn"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseOne"

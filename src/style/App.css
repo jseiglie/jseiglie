@@ -3,41 +3,25 @@
 
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Works on Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+*::-webkit-scrollbar-track {
+  background: #f7f7f7;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*::-webkit-scrollbar-thumb {
+  background-color: #720840;
+  border-radius: 20px;
+  border: 2px solid #f7f7f7;
 }
 
 /*********************/
@@ -54,29 +38,87 @@
   background-color: #f7f7f7;
   height: 100px;
   justify-content: center;
+  border-bottom: 2px solid #720840;
+  box-shadow: 0px 3px 10px 1px #720840;
 }
 
 .menu_Head {
-  background-image: url("../../public/rsc/img/seiglie_Banner1_399.png");
+  background-image: url("../../public/rsc/img/banner_color_133.png");
   background-size: fill;
   background-repeat: no-repeat;
+  background-color: #f7f7f7;
   height: 162px;
   margin-bottom: 1.5rem;
+}
+
+.close-container{
+  position: relative;
+  margin: auto;
+  width: 20px;
+  height: 50px;
+  
+  cursor: pointer;
+}
+
+.leftright{
+  height: 4px;
+  width: 20px;
+  position: absolute;
+  margin-left: 180px;
+  margin-top: -40px;
+  background-color: #720840;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+
+.rightleft{
+  height: 4px;
+  width: 20px;
+  position: absolute;
+  margin-left: 180px;
+  margin-top: -40px;
+  background-color: #720840;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+
+label{
+  color: white;
+  font-family: Helvetica, Arial, sans-serif; 
+  font-size: .6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+.close{
+  margin: 60px 0 0 5px;
+  position: absolute;
+}
+
+.close-container:hover .leftright{
+  transform: rotate(-45deg);
+  background-color: #720840;
+}
+.close-container:hover .rightleft{
+  transform: rotate(45deg);
+  background-color: #720840;
+}
+.close-container:hover label{
+  opacity: 1;
 }
 
 .menu_Close {
   display: flex;
   align-self: flex-start;
-  background-color: black;
-  color: #720840;
-  border-radius: 0.8rem;
+  border: 0;
+  background-color: transparent;
+  color: #720840;  
 }
-.menu_CloseIcon {
-  font-size: 1.5rem;
-}
-.menu_Close:hover {
-  box-shadow: 1px 1px 10px 0px #720840;
-}
+
+
 
 .nav_Wrapper {
   display: inline-grid;
@@ -133,6 +175,16 @@
   color: #720840;
 }
 
+.RRSS_btn{
+  background-image: url("../../public/rsc/img/board1.png");
+  background-position-x: 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #720840;
+  font-weight: 600;
+  justify-content: center;
+}
+
 .accordion {
   --bs-accordion-active-color: #720840;
   --bs-accordion-active-bg: transparent;
@@ -146,10 +198,12 @@
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  margin-top: 4.5rem;
 }
 
 .about_Hola {
   font-size: 5rem;
+  color: #720840;
 }
 
 .text_Intro {
@@ -160,14 +214,19 @@
   font-size: 2rem;
 }
 
+.about_section{
+  margin-bottom: 8rem;
+}
+
 .about_quote{
   place-content: center;
 }
 
 q {
-  border: 2px solid #807676;
+  border: 2px solid #720840;
   border-radius: 0.5rem;
   padding: 1rem;
+  color: #720840;
 }
 
 q::before {
@@ -188,18 +247,33 @@ q::after {
   color: black;
 }
 
+.colab_Title{
+  margin-bottom: 2rem;
+}
+.contact_text{
+  margin-bottom: 5rem;
+}
+
 .text_hablamos{
   margin-top: 3rem;
+}
+
+#tech{
+  border-bottom: 2px solid #720840;
+  border-top: 1px solid #720840;
+  box-shadow: 0px 3px 10px 1px #720840;
 }
 
 .tech_Title,
 .colab_Title {
   font-family: "Share Tech Mono", monospace;
   margin-top: 5rem;
+  color: #720840;
 }
 
 .tech_wrapper {
   margin-top: 5rem;
+  
 }
 
 .tech_Holder {
@@ -213,6 +287,18 @@ q::after {
   height: 7rem;
   border-radius: 0.5rem;
   margin-bottom: 3rem;
+}
+
+
+.colab_Title{
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+#colab{
+  background-color: #f7f7f7;
+  border-top: 1px solid #720840;
+  box-shadow: 0px 3px 10px 1px #720840;
 }
 
 .colab_Wrapper {
@@ -238,6 +324,7 @@ q::after {
 
 .contact_Wrapper{
   width: 70%;
+  margin-bottom: 5rem;
 }
 
 .contact_accordion{
@@ -283,4 +370,9 @@ q::after {
   height: 80px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.tech_section{
+  background-color: #f7f7f7;
+  padding: 2rem;
 }

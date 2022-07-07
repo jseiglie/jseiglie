@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
   return (
     
-    <section id="#about" className="container-fluid">
+    <section id="about" className="container-fluid about_section">
       <div className="about_Info">
         <div className="row about_wrapper">
 
@@ -14,19 +14,19 @@ const About = () => {
             programación.
           </p>
           <p className="text_normal">
-            Existe un proverbio que dice
+            Hay una frase que me llama mucho la atención: 
             <br /> <br />
             <span className="d-flex about_quote">
               <q><em>No trabajes duro, trabaja inteligente</em></q>
             </span>
             </p>
             <p className="text_normal">
-            <br />Lo que me propongo con cada trabajo que
-            realizo; brindar soluciones sencillas y elegantes que cumplan con
-            las necesidades del proyecto.
+            <br />y es exactamente lo que me propongo con cada trabajo que
+            realizo; brindar soluciones sencillas, elegantes y eficientes  que cumplan con
+            las necesidades del proyecto y cliente final. 
           </p>
           
-          <a href="#contacto" className="text_Link text_hablamos">Hablamos?</a>
+          <a href="#hablamos" className="text_Link text_hablamos">Hablamos?</a>
         </div>
       </div>
     </section>

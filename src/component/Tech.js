@@ -28,7 +28,7 @@ const Tech = () => {
     ));
 
   return (
-    <section className="container-fluid" id="tech"> 
+    <section className="container-fluid tech_section" id="tech"> 
       <h1 className="tech_Title">&lt;Tech/&gt;</h1>
       <div className="tech_wrapper">
         <div className="row tech_Holder">{show(front)}</div>

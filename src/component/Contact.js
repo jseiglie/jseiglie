@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="container" id="#contact">
+    <section className="container" id="hablamos">
       <h1 className="colab_Title">&lt;Hablamos?/&gt;</h1>
 
       <div className="container contact_Wrapper">
         <div className="row">
-          <p>Con sólo un click:</p>
+          <p className="contact_text">Con sólo un click:</p>
           <div className="col contact_accordion">
             <div
               className="accordion accordion-flush"
@@ -24,7 +24,7 @@ const Contact = () => {
                     aria-controls="flush-collapseOne"
                   >
                     <i className="fa-solid fa-mobile-screen contact_Icon"></i>{" "}
-                    Por Teléfono
+                    Teléfono
                   </button>
                 </h2>
                 <div
@@ -50,7 +50,7 @@ const Contact = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseTwo"
                   >
-                    <i className="fa-regular fa-envelope contact_Icon"></i> Por
+                    <i className="fa-regular fa-envelope contact_Icon"></i>
                     Correo
                   </button>
                 </h2>
@@ -104,7 +104,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm-12 col-lg-6">
             <img className="img-fluid img-thumbnail contacto_Img" src="./rsc/img/javier.jpg" alt="Javier Seiglie" />
           </div>
         </div>
