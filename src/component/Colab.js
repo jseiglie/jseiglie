@@ -6,19 +6,19 @@ const Colab = () => {
     {
       img: `4Geeks.jpg`,
       alt: "4Geeks Academy",
-      url: "https://4geeksacademy.com/",
+      url: "https://www.4geeksacademy.com/",
     },
     {
       img: `gites.jpg`,
       alt: "Girls in Tech Spain",
-      url: "https://spain.girlsintech.org/",
+      url: "https://www.spain.girlsintech.org/",
     },
-    { img: `bola_opt.png`, alt: "MacPlace", url: "https://macplace.es/" },
-    { img: `eypasa.png`, alt: "Eypasa", url: "https://eypasa.com/" },
+    { img: `bola_opt.png`, alt: "MacPlace", url: "https://www.macplace.es/" },
+    { img: `eypasa.png`, alt: "Eypasa", url: "https://www.eypasa.com/" },
     {
       img: `torsi.png`,
       alt: "Torsi English School",
-      url: "https://torsionline.com/",
+      url: "https://www.torsionline.com/",
     },
   ];
 
@@ -29,7 +29,7 @@ const Colab = () => {
           className="colab_ImgLink "
           href={data.url}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener"
         >
           <img
             className="colab_img"
