@@ -5,10 +5,10 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <section className="Seiglie_Footer">
+    <section className="Seiglie_Footer fixed-bottom">
       <div className="row gx-0">
         <div className="col-4">
-          Javier
+          Javier{" "}
           <a className="footer_Link" href="https://www.seiglie.com/">
             Seiglie
           </a>
@@ -51,21 +51,25 @@ const Footer = () => {
             </li>
             <li className="footer_List">
               <a className="footer_Link" href="https://spain.girlsintech.org/">
+                {" "}
                 Girls in Tech Spain
               </a>
             </li>
             <li className="footer_List">
               <a className="footer_Link" href="https://www.torsionline.com/">
+                {" "}
                 Torsi 
               </a>
             </li>
             <li className="footer_List">
               <a className="footer_Link" href="https://www.macplace.es/">
+                {" "}
                 MacPlace
               </a>
             </li>
             <li className="footer_List">
               <a className="footer_Link" href="https://www.eypasa.com/">
+                {" "}
                 Eypasa
               </a>
             </li>

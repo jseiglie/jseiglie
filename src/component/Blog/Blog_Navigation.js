@@ -1,6 +1,6 @@
 import React from "react";
-import RRSS from "./RRSS";
-import {Link} from "react-router-dom"
+import RRSS from "../RRSS";
+
 const Navigation = () => {
   return (
     <>
@@ -12,13 +12,13 @@ const Navigation = () => {
           data-bs-target="#offcanvasRight"
           aria-controls="offcanvasRight"
         >
-          <span>
+          <span>BL
             <img
               src="./rsc/img/seiglieWB.jpeg"
               alt="Seiglie"
               width="80px"
               height="80px"
-            />
+            />G
           </span>
         </button>
       </nav>
@@ -63,11 +63,9 @@ const Navigation = () => {
               </a>
             </li>
             <li className="nav-item navItem">
-              <Link className="nav-link navLink mainText" to={"/blog"}>
-              
-                Blog
-           
-              </Link>
+              <a className="nav-link navLink mainText" href="#projects">
+                Projects
+              </a>
             </li>
           </ul>
         </div>

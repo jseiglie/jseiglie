@@ -1,4 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/trajan-pro");
+@import url("https://fonts.cdnfonts.com/css/trajan-pro");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 
 .App {
@@ -12,7 +12,6 @@
   width: 8px;
   height: 8px;
 }
-
 
 *::-webkit-scrollbar-track {
   background: #f7f7f7;
@@ -51,16 +50,16 @@
   margin-bottom: 1.5rem;
 }
 
-.close-container{
+.close-container {
   position: relative;
   margin: auto;
   width: 20px;
   height: 50px;
-  
+
   cursor: pointer;
 }
 
-.leftright{
+.leftright {
   height: 4px;
   width: 20px;
   position: absolute;
@@ -69,10 +68,10 @@
   background-color: #720840;
   border-radius: 2px;
   transform: rotate(45deg);
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
-.rightleft{
+.rightleft {
   height: 4px;
   width: 20px;
   position: absolute;
@@ -81,32 +80,32 @@
   background-color: #720840;
   border-radius: 2px;
   transform: rotate(-45deg);
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
-label{
+label {
   color: white;
-  font-family: Helvetica, Arial, sans-serif; 
-  font-size: .6em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.6em;
   text-transform: uppercase;
   letter-spacing: 2px;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   opacity: 0;
 }
-.close{
+.close {
   margin: 60px 0 0 5px;
   position: absolute;
 }
 
-.close-container:hover .leftright{
+.close-container:hover .leftright {
   transform: rotate(-45deg);
   background-color: #720840;
 }
-.close-container:hover .rightleft{
+.close-container:hover .rightleft {
   transform: rotate(45deg);
   background-color: #720840;
 }
-.close-container:hover label{
+.close-container:hover label {
   opacity: 1;
 }
 
@@ -115,10 +114,8 @@ label{
   align-self: flex-start;
   border: 0;
   background-color: transparent;
-  color: #720840;  
+  color: #720840;
 }
-
-
 
 .nav_Wrapper {
   display: inline-grid;
@@ -175,7 +172,7 @@ label{
   color: #720840;
 }
 
-.RRSS_btn{
+.RRSS_btn {
   background-image: url("../../public/rsc/img/board1.png");
   background-position-x: 70px;
   background-repeat: no-repeat;
@@ -214,11 +211,11 @@ label{
   font-size: 2rem;
 }
 
-.about_section{
+.about_section {
   margin-bottom: 8rem;
 }
 
-.about_quote{
+.about_quote {
   place-content: center;
 }
 
@@ -247,18 +244,18 @@ q::after {
   color: black;
 }
 
-.colab_Title{
+.colab_Title {
   margin-bottom: 2rem;
 }
-.contact_text{
+.contact_text {
   margin-bottom: 5rem;
 }
 
-.text_hablamos{
+.text_hablamos {
   margin-top: 3rem;
 }
 
-#tech{
+#tech {
   border-bottom: 2px solid #720840;
   border-top: 1px solid #720840;
   box-shadow: 0px 3px 10px 1px #720840;
@@ -273,7 +270,6 @@ q::after {
 
 .tech_wrapper {
   margin-top: 5rem;
-  
 }
 
 .tech_Holder {
@@ -289,13 +285,12 @@ q::after {
   margin-bottom: 3rem;
 }
 
-
-.colab_Title{
+.colab_Title {
   margin-top: 5rem;
   margin-bottom: 3rem;
 }
 
-#colab{
+#colab {
   background-color: #f7f7f7;
   border-top: 1px solid #720840;
   box-shadow: 0px 3px 10px 1px #720840;
@@ -322,28 +317,29 @@ q::after {
   margin-bottom: 3rem;
 }
 
-.contact_Wrapper{
+.contact_Wrapper {
   width: 70%;
   margin-bottom: 5rem;
 }
 
-.contact_accordion{
+.contact_accordion {
   align-self: center;
 }
 
-.contact_Icon{
+.contact_Icon {
   padding: 0.5rem;
 }
 
-.contacto_Img{
+.contacto_Img {
   width: 20rem;
   height: auto;
 }
 
-.Seiglie_Footer{
+.Seiglie_Footer {
   background-color: #f7f7f7;
   font-family: "Share Tech Mono", monospace;
   font-size: 8pt;
+  z-index: 0;
 }
 
 .footer_Link {
@@ -356,13 +352,12 @@ q::after {
   color: #720840;
 }
 
-.footer_Ul{
+.footer_Ul {
   padding: 0;
 }
 
 .footer_List {
   list-style-type: none;
-  
 }
 
 .footer_Logo {
@@ -370,9 +365,66 @@ q::after {
   height: 80px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  
 }
 
-.tech_section{
+.tech_section {
   background-color: #f7f7f7;
   padding: 2rem;
+}
+
+/**** BLOG *******/
+
+.metele {
+  margin: 3rem 0;
+}
+
+.tab_wrap {
+  place-content: center;
+}
+
+.link_code,
+.link_idea,
+.link_pojetcs, .link_tech {
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+  color: #720840;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem !important;
+}
+
+.link_code {
+  background-image: url("../../public/rsc/img/blog/code.jpg") !important;
+}
+
+.link_pojetcs {
+  background-image: url("../../public/rsc/img/blog/charts.jpg") !important;
+}
+
+.link_idea {
+  background-image: url("../../public/rsc/img/blog/idea1.jpg") !important;
+}
+
+.link_tech{
+  background-image: url("../../public/rsc/img/blog/tech.jpg") !important;
+}
+
+.link_text {
+  background-color: #f7f7f7;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.link_text:hover, .link_code:hover,
+.link_idea:hover,
+.link_pojetcs:hover, .link_tech:hover {
+  box-shadow: 0px 0px 5px 3px #720840;
+  color: black;
 }
