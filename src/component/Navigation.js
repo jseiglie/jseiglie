@@ -28,10 +28,11 @@ const Navigation = () => {
         id="offcanvasRight"
         aria-labelledby="offcanvasRightLabel"
       >
-        <div className="offcanvas-header menu_Head">
+        <div className="offcanvas-header menu_Head " data-bs-dismiss="offcanvas"
+            aria-label="Close">
           
           <div
-            className="close-container menu_Close"
+            className="close-container menu_Close "
             data-bs-dismiss="offcanvas"
             aria-label="Close"
           >

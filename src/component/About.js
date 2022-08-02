@@ -6,10 +6,10 @@ const About = () => {
     
     <section id="about" className="container-fluid about_section">
       <div className="about_Info">
-        <div className="row about_wrapper">
+        <div className="row about_wrapper min-vw-100 vw-75">
 
           <p className="text_Intro">
-            <span className="about_Hola">Hola!</span> soy Javier. <br />
+            <span className="about_Hola">Hola!</span> <br /> soy Javier. <br />
             Desarrollador de Aplicaciones Web (Full Stack) y profesor asistente de
             programación.
           </p>

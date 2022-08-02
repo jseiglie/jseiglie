@@ -5,9 +5,9 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <section className="Seiglie_Footer fixed-bottom">
+    <section className="Seiglie_Footer mt-5">
       <div className="row gx-0">
-        <div className="col-4">
+        <div className="col-lg-4 col-md-3 col-sm-6">
           Javier{" "}
           <a className="footer_Link" href="https://www.seiglie.com/">
             Seiglie
@@ -16,7 +16,7 @@ const Footer = () => {
           <img className="footer_Logo" src="./rsc/img/seiglieWB.jpeg" alt="Seiglie logo"/>
           <br /> Madrid, Spain. {year}
         </div>
-        <div className="col-4 footer_TechWrap">
+        <div className="col-lg-4 col-md-4 col-sm-6 footer_TechWrap">
           <div className="row">
           <span className="footer_Tech">Tech:</span>
             <div className="col-6">
@@ -41,8 +41,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
-          <ul>
+        <div className="col-lg-4 col-md-4 col-sm-12">
+          <ul className="p-0">
             Colab:
             <li className="footer_List">
               <a className="footer_Link" href="https://www.4geeksacademy.com/">

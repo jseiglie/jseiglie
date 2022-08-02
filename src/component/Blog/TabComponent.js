@@ -3,7 +3,7 @@ import React from "react";
 const TabComponent = () => {
   return (
     <>
-      <div className="row">
+      <div className="row tab-wrapper">
         <ul className="nav nav-tabs tab_wrap" id="myTab" role="tablist">
           <li className="nav-item " role="presentation">
             <a
@@ -58,7 +58,8 @@ const TabComponent = () => {
             </a>
           </li>
         </ul>
-        <div className="tab-content" id="myTabContent">
+      </div>
+        <div className="tab-content tab-content-wrapper mb-5" id="myTabContent">
           <div
             className="tab-pane fade show active"
             id="home"
@@ -66,7 +67,7 @@ const TabComponent = () => {
             aria-labelledby="home-tab"
           >
             {" "}
-            asdasdasdad...
+            <div className="proximamente">Coming Soon...</div> 
           </div>
           <div
             className="tab-pane fade"
@@ -74,7 +75,7 @@ const TabComponent = () => {
             role="tabpanel"
             aria-labelledby="profile-tab"
           >
-            ..sdfsdfsdfsdf.
+             <div className="proximamente">Coming Soon...</div> 
           </div>
           <div
             className="tab-pane fade"
@@ -82,7 +83,7 @@ const TabComponent = () => {
             role="tabpanel"
             aria-labelledby="contact-tab"
           >
-            ..cvbcvbcvbcvb.
+             <div className="proximamente">Coming Soon...</div> 
           </div>
           <div
             className="tab-pane fade"
@@ -90,10 +91,9 @@ const TabComponent = () => {
             role="tabpanel"
             aria-labelledby="blog_tech-tab"
           >
-            ..techies.
+            <div className="proximamente">Coming Soon...</div> 
           </div>
         </div>
-      </div>
     </>
   );
 };

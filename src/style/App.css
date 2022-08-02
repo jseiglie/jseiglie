@@ -41,6 +41,10 @@
   box-shadow: 0px 3px 10px 1px #720840;
 }
 
+.offcanvas{
+  width: 280px !important;
+}
+
 .menu_Head {
   background-image: url("../../public/rsc/img/banner_color_133.png");
   background-size: fill;
@@ -63,8 +67,8 @@
   height: 4px;
   width: 20px;
   position: absolute;
-  margin-left: 180px;
-  margin-top: -40px;
+  margin-left: 110px;
+  margin-top: -30px;
   background-color: #720840;
   border-radius: 2px;
   transform: rotate(45deg);
@@ -75,8 +79,8 @@
   height: 4px;
   width: 20px;
   position: absolute;
-  margin-left: 180px;
-  margin-top: -40px;
+  margin-left: 110px;
+  margin-top: -30px;
   background-color: #720840;
   border-radius: 2px;
   transform: rotate(-45deg);
@@ -175,6 +179,7 @@ label {
 .RRSS_btn {
   background-image: url("../../public/rsc/img/board1.png");
   background-position-x: 70px;
+  background-position-y: 2px;
   background-repeat: no-repeat;
   background-size: contain;
   color: #720840;
@@ -196,6 +201,7 @@ label {
   margin-right: auto;
   width: 70%;
   margin-top: 4.5rem;
+ padding-right: 2rem;
 }
 
 .about_Hola {
@@ -204,7 +210,7 @@ label {
 }
 
 .text_Intro {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .text_normal {
@@ -339,7 +345,9 @@ q::after {
   background-color: #f7f7f7;
   font-family: "Share Tech Mono", monospace;
   font-size: 8pt;
-  z-index: 0;
+  
+  padding-top: 1rem;
+  
 }
 
 .footer_Link {
@@ -377,10 +385,18 @@ q::after {
 
 .metele {
   margin: 3rem 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #720840;
+  padding: 0.5rem;
+  color: white;
 }
-
+.tab-wrapper{
+  overflow-x: scroll;
+}
 .tab_wrap {
   place-content: center;
+  min-inline-size: max-content;
+  
 }
 
 .link_code,
@@ -392,7 +408,7 @@ q::after {
   height: 200px;
   width: 200px;
   color: #720840;
-  font-size: 1.2rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   margin-left: 1rem;
@@ -421,10 +437,26 @@ q::after {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 .link_text:hover, .link_code:hover,
 .link_idea:hover,
 .link_pojetcs:hover, .link_tech:hover {
   box-shadow: 0px 0px 5px 3px #720840;
   color: black;
+}
+
+.tab-content-wrapper{
+  height: max-content;
+  
+}
+
+.proximamente{
+    display: inline-grid;
+    place-content: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+    height: 30vh;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
 }

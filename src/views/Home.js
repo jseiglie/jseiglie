@@ -12,7 +12,7 @@ const Home = () => {
     <>
     
       <div id="#home">
-        <div className="navigation_Wrapper sticky-top ">
+        <div className="navigation_Wrapper sticky ">
           <Navigation />
         </div>
         <About />

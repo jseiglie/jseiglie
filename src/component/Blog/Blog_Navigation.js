@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import RRSS from "../RRSS";
 
 const Navigation = () => {
@@ -12,13 +13,15 @@ const Navigation = () => {
           data-bs-target="#offcanvasRight"
           aria-controls="offcanvasRight"
         >
-          <span>BL
+          <span>
+            BL
             <img
               src="./rsc/img/seiglieWB.jpeg"
               alt="Seiglie"
               width="80px"
               height="80px"
-            />G
+            />
+            G
           </span>
         </button>
       </nav>
@@ -29,7 +32,6 @@ const Navigation = () => {
         aria-labelledby="offcanvasRightLabel"
       >
         <div className="offcanvas-header menu_Head">
-          
           <div
             className="close-container menu_Close"
             data-bs-dismiss="offcanvas"
@@ -42,31 +44,21 @@ const Navigation = () => {
         </div>
         <div className="offcanvas-body nav_Wrapper">
           <ul className="navWrap">
-            <li className="nav-item navItem">
-              <a className="nav-link navLink mainText" href="#about">
-                About
-              </a>
-            </li>
-            <li className="nav-item navItem">
-              <a className="nav-link navLink mainText" href="#tech">
-                Tech
-              </a>
-            </li>
-            <li className="nav-item navItem">
-              <a className="nav-link navLink mainText" href="#hablamos">
-                Hablamos?
-              </a>
-            </li>
-            <li className="nav-item navItem">
-              <a className="nav-link navLink mainText" href="#colab">
-                Colab
-              </a>
-            </li>
-            <li className="nav-item navItem">
-              <a className="nav-link navLink mainText" href="#projects">
-                Projects
-              </a>
-            </li>
+            <Link className="nav-link navLink mainText" to={"/"}>
+              <li className="nav-item navItem">Portfolio</li>
+            </Link>
+            <Link className="nav-link navLink mainText" to={"/#tech"}>
+              <li className="nav-item navItem"></li>
+            </Link>
+            <Link className="nav-link navLink mainText" to={"/#hablamos"}>
+              <li className="nav-item navItem"></li>
+            </Link>
+            <Link className="nav-link navLink mainText" to={"/#colab"}>
+              <li className="nav-item navItem"></li>
+            </Link>
+            <Link className="nav-link navLink mainText" to={"/#projects"}>
+              <li className="nav-item navItem"></li>
+            </Link>
           </ul>
         </div>
         <div className="accordion accordion-flush" id="accordionFlushExample">
