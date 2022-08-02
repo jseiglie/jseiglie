@@ -12,13 +12,41 @@ const Footer = () => {
           <a className="footer_Link" href="https://www.seiglie.com/">
             Seiglie
           </a>
-          <br/>
-          <img className="footer_Logo" src="./rsc/img/seiglieWB.jpeg" alt="Seiglie logo"/>
+          <br />
+          <img
+            className="footer_Logo"
+            src="./rsc/img/seiglieWB.jpeg"
+            alt="Seiglie logo"
+          />
+          <a
+            href="https://www.buymeacoffee.com/seiglie"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+              alt="Buy Me A Coffee"
+              className="coffee"
+            />
+          </a>
+          <script
+            type="text/javascript"
+            src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+            data-name="bmc-button"
+            data-slug="seiglie"
+            data-color="#FFDD00"
+            data-emoji=""
+            data-font="Cookie"
+            data-text="Buy me a coffee"
+            data-outline-color="#000000"
+            data-font-color="#000000"
+            data-coffee-color="#ffffff"
+          ></script>
           <br /> Madrid, Spain. {year}
         </div>
         <div className="col-lg-4 col-md-4 col-sm-6 footer_TechWrap">
           <div className="row">
-          <span className="footer_Tech">Tech:</span>
+            <span className="footer_Tech">Tech:</span>
             <div className="col-6">
               <ul className="footer_Ul">
                 <li className="footer_List">HTML</li>
@@ -58,7 +86,7 @@ const Footer = () => {
             <li className="footer_List">
               <a className="footer_Link" href="https://www.torsionline.com/">
                 {" "}
-                Torsi 
+                Torsi
               </a>
             </li>
             <li className="footer_List">

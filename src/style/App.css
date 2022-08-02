@@ -451,6 +451,11 @@ q::after {
   
 }
 
+.coffee{
+  height: 50px; 
+  width: 160px
+}
+
 .proximamente{
     display: inline-grid;
     place-content: center;
