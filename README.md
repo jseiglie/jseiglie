@@ -1,1 +1,1 @@
-![seiglie logo](https://github.com/jseiglie/jseiglie/blob/master/public/rsc/img/seiglieWR.jpeg?raw=true "seiglie logo")
+
