@@ -1,10 +1,10 @@
 ## {Javier Seiglie}
 <pre>
 const Contact = {
-   email: <a href='mailto:javier@seiglie.com'>javier@seiglie.com</a>, 
-   linkedin: <a href='https://linkedin.com/in/javierseiglie'>javierseiglie</a>,
-   discord: <a href='https://discord.gg/5HtQKe4d'>Seiglie</a>,
-   website: <a href='https://seiglie.es'>https://seiglie.es</a>
+   email: <a target="blank" rel='noreferrer' href='mailto:javier@seiglie.com'>javier@seiglie.com</a>, 
+   linkedin: <a target="blank" rel='noreferrer' href='https://linkedin.com/in/javierseiglie'>javierseiglie</a>,
+   discord: <a target="blank" rel='noreferrer' href='https://discord.gg/5HtQKe4d'>Seiglie</a>,
+   website: <a target="blank" rel='noreferrer' href='https://seiglie.es'>https://seiglie.es</a>
 }
 </pre>
 <div class="badges-githubstats">
@@ -16,7 +16,7 @@ const Contact = {
 
 <section>
 <table>
-   <tr>&title=
+   <tr>
       <td>
          <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jseiglie&theme=tokyonight&hide_border=true" alt="Most Commit Language">
       </td>
@@ -28,7 +28,7 @@ const Contact = {
    <img src="https://github-profile-trophy.vercel.app/?username=jseiglie&theme=tokyonight&title=-Experience,-Reviews" alt="jseiglie" /> 
   </p>
 
-<p align="left"> <a href="https://twitter.com/javierseiglie" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+<p align="center"> <a href="https://twitter.com/javierseiglie" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
   <img src="https://komarev.com/ghpvc/?username=jseiglie&style=for-the-badge&color=orange" alt=""/>
 </div>
