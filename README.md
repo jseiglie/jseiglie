@@ -3,7 +3,7 @@
 const Contact = {
    email: <a href='mailto:javier@seiglie.com'>javier@seiglie.com</a>, 
    linkedin: <a href='https://linkedin.com/in/javierseiglie'>javierseiglie</a>,
-   discord: 556529221342724126,
+   discord: <a href='https://discord.gg/5HtQKe4d'>Seiglie</a>,
    website: <a href='https://seiglie.es'>https://seiglie.es</a>
 }
 </pre>
