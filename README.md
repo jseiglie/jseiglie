@@ -26,7 +26,7 @@
    </tr>
 </table>
 <div align="center">
-  [![trophy](https://github-profile-trophy.vercel.app/?username=jseiglie&theme=tokyonight&title=Stars,Followers)](https://github.com/ryo-ma/github-profile-trophy)
+  [![trophy](https://github-profile-trophy.vercel.app/?username=jseiglie&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
 
   <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jseiglie" alt="jseiglie" /></a> </p>
   
